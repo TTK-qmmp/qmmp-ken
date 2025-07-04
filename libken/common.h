@@ -5,8 +5,12 @@
 #include <math.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include <malloc.h>
 #include <string.h>
+#ifdef __APPLE__
+#include <stdlib.h>
+#else
+#include <malloc.h>
+#endif
 
 #define MAX_PATH 255
 
