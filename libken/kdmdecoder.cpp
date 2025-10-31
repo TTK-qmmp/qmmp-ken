@@ -561,7 +561,7 @@ int KDMDecoder::loadwaves(const char *refdir)
 
   for(i = 0; i < MAXWAVES; i++)
   {
-    wavoffs[i] += (long)snd;
+    wavoffs[i] += (intptr_t)snd;
   }
 
   read(file, &snd[0], totsndbytes);
