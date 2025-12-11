@@ -23,8 +23,6 @@ SOURCES += decoderkenfactory.cpp \
            libken/ksmdecoder.cpp \
            libken/smdecoder.cpp
 
-INCLUDEPATH += $$PWD/libken
-
 #CONFIG += BUILD_PLUGIN_INSIDE
 contains(CONFIG, BUILD_PLUGIN_INSIDE){
     include($$PWD/../../plugins.pri)
