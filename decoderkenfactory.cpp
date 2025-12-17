@@ -86,7 +86,8 @@ void DecoderKenFactory::showAbout(QWidget *parent)
 {
     QMessageBox::about(parent, tr("About Ken Reader Plugin"),
                        tr("Qmmp Ken Reader Plugin") + "\n" +
-                       tr("Written by: Greedysky <greedysky@163.com>"));
+                       tr("Written by: Greedysky <greedysky@163.com>") + "\n" +
+                       tr("Based on the source code from the Ken Silverman"));
 }
 
 QString DecoderKenFactory::translation() const

@@ -1,5 +1,6 @@
 This is a plugin for Qmmp (1.6.0 or greater) which supports Ken file.
-(Ken Silverman's Audio File)
+
+Based on [Ken Silverman](https://bitbucket.org/wothke/webken) (Ken Silverman's audio module).
 
 The following packages are required, including development headers,
 which some vendors split into separate packages:
